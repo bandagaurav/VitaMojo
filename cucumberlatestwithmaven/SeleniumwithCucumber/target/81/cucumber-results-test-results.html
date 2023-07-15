@@ -1,0 +1,64 @@
+<html>
+<head><style type="text/css">h1 {background-color:#9999CC}
+h2 {background-color:#BBBBCC}
+h3 {background-color:#DDDDFF}
+th {border:1px solid black;background-color:#CCCCDD;}
+td{border:1px solid black;}
+table {border:1px solid black;border-collapse: collapse;}
+.chart {border:0px none black;border-collapse: collapse;background-color: none;}
+.passed {background-color:lightgreen;font-weight:bold;color:darkgreen}
+.failed {background-color:tomato;font-weight:bold;color:darkred}
+.undefined {background-color:gold;font-weight:bold;color:goldenrod}
+.skipped {background-color:silver;font-weight:bold;color:darkgray}
+.known {background-color:goldenrod;font-weight:bold;color:darkred}
+.passed_description {background-color:#D0FFD0;font-weight:bold;font-style:italic;color:black}
+.failed_description {background-color:#FFA898;font-weight:bold;font-style:italic;color:black}
+.comment {font-family:courier;font-weight:normal;font-size:small;color:black;border:1px dashed black;background-color:silver}
+.tip {font-family:courier;font-weight:normal;font-size:small;color:white;background-color:black}
+OL { counter-reset: item }
+OL>LI { display: block }
+OL>LI:before { content: counters(item, ".") " "; counter-increment: item }
+
+div.header {
+    display: block; text-align: center;
+    position: running(header);
+}
+div.footer {
+    display: block; text-align: center;
+    position: running(footer);
+}
+div.content {page-break-after: always;}
+@page {
+	 size: __PAGESIZE__;
+     @top-center {
+     	content: "Detailed Results Report";
+	    color: silver;
+	    font-size: 14px;
+     }
+     @top-right {
+     	content: date("dd MMM, yyyy hh:mm");
+	    color: silver;
+	    font-size: 8px;
+     }
+    @bottom-right {
+    	content: "Page " counter(page) " of " counter(pages) ;
+	    color: silver;
+	    font-size: 8px;
+    }
+}
+ol a::after {
+  content: leader('.') target-counter(attr(href), page);
+}
+</style>
+<title>Detailed Results Report</title>
+  </head>
+  <body>
+    <div class='header'></div>
+    <div class='footer'></div>
+  <h1>Overview</h1>
+<table><tr><th></th><th>Passed</th><th>Failed</th><th>Known</th><th>Undefined</th><th>%Passed</th></tr><tr><th>Features</th><td class="passed" id="features_passed">1</td><td class="failed" id="features_failed">0</td><td class="known" id="features_known">0</td><td class="undefined" id="features_undefined">0</td><td id="features_rate">100.00</td></tr><tr><th>Scenarios</th><td class="passed" id="scenarios_passed">2</td><td class="failed" id="scenarios_failed">0</td><td class="known" id="scenarios_known">0</td><td class="undefined" id="scenarios_undefined">0</td><td id="scenarios_rate">100.00</td></tr><tr><th>Steps</th><td class="passed" id="steps_passed">13</td><td class="failed" id="steps_failed">0</td><td class="known" id="steps_known">0</td><td class="undefined" id="steps_undefined">0</td><td id="steps_rate">100.00</td></tr></table><div><b>Overall Duration: 0h 00m 33s</b></div>
+<a id="top"></a><h1>Table of Contents</h1><ol><li> <span class="passed"><a href="#feature-1login/signup-action">Login/Signup Action</a></span><ol><li> <span class="passed"><a href="#sc-5-login/signup-action;successful-signup-with-valid-credentials">Successful Signup with Valid Credentials</a></span></li><li> <span class="passed"><a href="#sc-14-login/signup-action;successful-login-with-valid-credentials">Successful Login with Valid Credentials</a></span></li></ol></li></ol><h1>Detailed Results Report</h1><table width="700px"><tr class="passed"><td colspan="4"><b>Feature:</b> <a id="feature-1login/signup-action">Login/Signup Action</a></td></tr><tr class="passed"><td><small><b>Passed:</b> 2</small></td><td><small><b>Failed:</b> 0</small></td><td><small><b>Undefined:</b> 0</small></td><td><small>Duration: 33.93s</small></td></tr><tr class="passed"><td colspan="4" style="padding-left:20px"> <table width="100%"><tr class="passed"><td colspan="4"><b>Scenario:</b> <a id="sc-5-login/signup-action;successful-signup-with-valid-credentials">Successful Signup with Valid Credentials</a></td></tr><tr class="passed"><td><small><b>Passed:</b> 8</small></td><td><small><b>Failed:</b> 0</small></td><td><small><b>Undefined:</b> 0</small></td><td><small>Duration: 17.02s</small></td></tr><tr class="passed"><td>Before</td><td colspan="2"></td><td width="100">6.30s</td></tr><tr class="passed"><td colspan="4"></td></tr><tr class="passed"><td colspan="4" style="padding-left:20px"> <table width="100%"><tr class="passed"><td><b>Given </b> User clicks on Login Button</td><td width="100">4.66s</td></tr><tr class="passed"><td><b>Given </b> User clicks on create account tab</td><td width="100">0.43s</td></tr><tr class="passed"><td><b>When </b> User enters Name</td><td width="100">0.21s</td></tr><tr class="passed"><td><b>And </b> User enters email address</td><td width="100">0.34s</td></tr><tr class="passed"><td><b>And </b> User enters password</td><td width="100">0.19s</td></tr><tr class="passed"><td><b>And </b> User clicks on future discounts checkbox</td><td width="100">0.09s</td></tr><tr class="passed"><td><b>Then </b> User clicks on create account button</td><td width="100">0.10s</td></tr><tr class="passed"><td><b>And </b> Message displayed Signup Successfully</td><td width="100">2.99s</td></tr><tr class="passed"><td colspan="2"><img src="5-login/signup-action_successful-signup-with-valid-credentials1689400553136.png"  /></td></tr><tr class="passed"><td colspan="2" class="comment"><span class="tip">Output</span><pre class="comment">Current Page URL is Passedhttps://fego.vmos-demo.com/store/store-selection?app=online
+</pre></td></tr></table></td></tr><tr class="passed"><td>After</td><td colspan="2"></td><td width="100">1.70s</td></tr><tr class="passed"><td colspan="4"></td></tr><tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr><tr class="passed"><td colspan="4"><b>Scenario:</b> <a id="sc-14-login/signup-action;successful-login-with-valid-credentials">Successful Login with Valid Credentials</a></td></tr><tr class="passed"><td><small><b>Passed:</b> 5</small></td><td><small><b>Failed:</b> 0</small></td><td><small><b>Undefined:</b> 0</small></td><td><small>Duration: 16.91s</small></td></tr><tr class="passed"><td>Before</td><td colspan="2"></td><td width="100">9.33s</td></tr><tr class="passed"><td colspan="4"></td></tr><tr class="passed"><td colspan="4" style="padding-left:20px"> <table width="100%"><tr class="passed"><td><b>Given </b> User clicks on Login Button</td><td width="100">0.09s</td></tr><tr class="passed"><td><b>When </b> User enters login email address</td><td width="100">0.51s</td></tr><tr class="passed"><td><b>And </b> User enters login password</td><td width="100">0.12s</td></tr><tr class="passed"><td><b>And </b> User Clicks on login button</td><td width="100">0.08s</td></tr><tr class="passed"><td><b>Then </b> Message displayed Login Successfully</td><td width="100">3.97s</td></tr><tr class="passed"><td colspan="2"><img src="14-login/signup-action_successful-login-with-valid-credentials1689400553138.png"  /></td></tr><tr class="passed"><td colspan="2" class="comment"><span class="tip">Output</span><pre class="comment">Current Page URL is Passedhttps://fego.vmos-demo.com/store/store-selection?app=online
+</pre></td></tr></table></td></tr><tr class="passed"><td>After</td><td colspan="2"></td><td width="100">2.81s</td></tr><tr class="passed"><td colspan="4"></td></tr><tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr></table></td></tr><tr><td colspan="5"></td></tr></table>
+	</body>
+</html>

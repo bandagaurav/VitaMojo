@@ -1,0 +1,24 @@
+Feature: Login/Signup Action
+
+  Background: User is on Home Page    [90m# vitamojo.feature:2[0m
+    [32mGiven [0m[32mUser clicks on Login Button[0m [90m# stepDefination.user_clicks_on_Login_Button()[0m
+[34mCurrent Page URL is Passedhttps://fego.vmos-demo.com/store/store-selection?app=online[0m
+
+  Scenario: Successful Signup with Valid Credentials [90m# vitamojo.feature:5[0m
+    [32mGiven [0m[32mUser clicks on create account tab[0m          [90m# stepDefination.user_clicks_on_create_account_tab()[0m
+    [32mWhen [0m[32mUser enters Name[0m                            [90m# stepDefination.user_enters_Name()[0m
+    [32mAnd [0m[32mUser enters email address[0m                    [90m# stepDefination.user_enters_email_address()[0m
+    [32mAnd [0m[32mUser enters password[0m                         [90m# stepDefination.user_enters_password()[0m
+    [32mAnd [0m[32mUser clicks on future discounts checkbox[0m     [90m# stepDefination.user_clicks_on_future_discounts_checkbox()[0m
+    [32mThen [0m[32mUser clicks on create account button[0m        [90m# stepDefination.user_clicks_on_create_account_button()[0m
+    [32mAnd [0m[32mMessage displayed Signup Successfully[0m        [90m# stepDefination.message_displayed_Signup_Successfully()[0m
+
+  Background: User is on Home Page    [90m# vitamojo.feature:2[0m
+    [32mGiven [0m[32mUser clicks on Login Button[0m [90m# stepDefination.user_clicks_on_Login_Button()[0m
+[34mCurrent Page URL is Passedhttps://fego.vmos-demo.com/store/store-selection?app=online[0m
+
+  Scenario: Successful Login with Valid Credentials [90m# vitamojo.feature:14[0m
+    [32mWhen [0m[32mUser enters login email address[0m            [90m# stepDefination.user_enters_login_email_address()[0m
+    [32mAnd [0m[32mUser enters login password[0m                  [90m# stepDefination.user_enters_login_password()[0m
+    [32mAnd [0m[32mUser Clicks on login button[0m                 [90m# stepDefination.user_Clicks_on_login_button()[0m
+    [32mThen [0m[32mMessage displayed Login Successfully[0m       [90m# stepDefination.message_displayed_Login_Successfully()[0m

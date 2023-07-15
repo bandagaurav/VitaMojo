@@ -1,0 +1,222 @@
+[
+  {
+    "source": "^User enters password$",
+    "steps": [
+      {
+        "name": "User enters password",
+        "aggregatedDurations": {
+          "average": 0.1923485,
+          "median": 0.1923485
+        },
+        "durations": [
+          {
+            "duration": 0.1923485,
+            "location": "vitamojo.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on create account button$",
+    "steps": [
+      {
+        "name": "User clicks on create account button",
+        "aggregatedDurations": {
+          "average": 0.1046552,
+          "median": 0.1046552
+        },
+        "durations": [
+          {
+            "duration": 0.1046552,
+            "location": "vitamojo.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on Login Button$",
+    "steps": [
+      {
+        "name": "User clicks on Login Button",
+        "aggregatedDurations": {
+          "average": 2.3749339,
+          "median": 2.3749339
+        },
+        "durations": [
+          {
+            "duration": 4.6585796,
+            "location": "vitamojo.feature:3"
+          },
+          {
+            "duration": 0.0912882,
+            "location": "vitamojo.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on future discounts checkbox$",
+    "steps": [
+      {
+        "name": "User clicks on future discounts checkbox",
+        "aggregatedDurations": {
+          "average": 0.0902255,
+          "median": 0.0902255
+        },
+        "durations": [
+          {
+            "duration": 0.0902255,
+            "location": "vitamojo.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on create account tab$",
+    "steps": [
+      {
+        "name": "User clicks on create account tab",
+        "aggregatedDurations": {
+          "average": 0.4261669,
+          "median": 0.4261669
+        },
+        "durations": [
+          {
+            "duration": 0.4261669,
+            "location": "vitamojo.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Clicks on login button$",
+    "steps": [
+      {
+        "name": "User Clicks on login button",
+        "aggregatedDurations": {
+          "average": 0.0799683,
+          "median": 0.0799683
+        },
+        "durations": [
+          {
+            "duration": 0.0799683,
+            "location": "vitamojo.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters Name$",
+    "steps": [
+      {
+        "name": "User enters Name",
+        "aggregatedDurations": {
+          "average": 0.2129776,
+          "median": 0.2129776
+        },
+        "durations": [
+          {
+            "duration": 0.2129776,
+            "location": "vitamojo.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters email address$",
+    "steps": [
+      {
+        "name": "User enters email address",
+        "aggregatedDurations": {
+          "average": 0.3433789,
+          "median": 0.3433789
+        },
+        "durations": [
+          {
+            "duration": 0.3433789,
+            "location": "vitamojo.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Message displayed Login Successfully$",
+    "steps": [
+      {
+        "name": "Message displayed Login Successfully",
+        "aggregatedDurations": {
+          "average": 3.9655904,
+          "median": 3.9655904
+        },
+        "durations": [
+          {
+            "duration": 3.9655904,
+            "location": "vitamojo.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Message displayed Signup Successfully$",
+    "steps": [
+      {
+        "name": "Message displayed Signup Successfully",
+        "aggregatedDurations": {
+          "average": 2.9933975,
+          "median": 2.9933975
+        },
+        "durations": [
+          {
+            "duration": 2.9933975,
+            "location": "vitamojo.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters login email address$",
+    "steps": [
+      {
+        "name": "User enters login email address",
+        "aggregatedDurations": {
+          "average": 0.5132421,
+          "median": 0.5132421
+        },
+        "durations": [
+          {
+            "duration": 0.5132421,
+            "location": "vitamojo.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters login password$",
+    "steps": [
+      {
+        "name": "User enters login password",
+        "aggregatedDurations": {
+          "average": 0.1248065,
+          "median": 0.1248065
+        },
+        "durations": [
+          {
+            "duration": 0.1248065,
+            "location": "vitamojo.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T05:55:06Z" name="Surefire suite" finished-at="2023-07-15T05:55:16Z" duration-ms="9280">
+    <groups>
+    </groups>
+    <test started-at="2023-07-15T05:55:06Z" name="Surefire test" finished-at="2023-07-15T05:55:16Z" duration-ms="9280">
+      <class name="step_definations.VitaMojoAPITest">
+        <test-method is-config="true" signature="serviceSetup()[pri:0, instance:step_definations.VitaMojoAPITest@4d154ccd]" started-at="2023-07-15T11:25:06Z" name="serviceSetup" finished-at="2023-07-15T11:25:07Z" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceSetup -->
+        <test-method signature="signUpRequest()[pri:0, instance:step_definations.VitaMojoAPITest@4d154ccd]" started-at="2023-07-15T11:25:07Z" name="signUpRequest" description="User wants to sign up" finished-at="2023-07-15T11:25:14Z" duration-ms="7151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpRequest -->
+        <test-method signature="loginRequest()[pri:0, instance:step_definations.VitaMojoAPITest@4d154ccd]" started-at="2023-07-15T11:25:14Z" name="loginRequest" description="User wants to login" finished-at="2023-07-15T11:25:16Z" depends-on-methods="step_definations.VitaMojoAPITest.signUpRequest" duration-ms="1792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRequest -->
+      </class> <!-- step_definations.VitaMojoAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

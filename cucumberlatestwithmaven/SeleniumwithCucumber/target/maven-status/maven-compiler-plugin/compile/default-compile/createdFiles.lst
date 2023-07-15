@@ -1,0 +1,8 @@
+pojo\Constants.class
+pojo\LoginDTO.class
+pojo\SignupDTO.class
+pages\LoginPage.class
+pojo\RequestParams.class
+pojo\Profile.class
+pojo\BaseTest.class
+pages\SignupPage.class

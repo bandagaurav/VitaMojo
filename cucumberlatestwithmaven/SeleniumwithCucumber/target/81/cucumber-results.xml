@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.546599">
+<testcase classname="Login/Signup Action" name="Successful Signup with Valid Credentials" time="17.335858">
+<system-out><![CDATA[Given User clicks on Login Button...........................................passed
+Given User clicks on create account tab.....................................passed
+When User enters Name.......................................................passed
+And User enters email address...............................................passed
+And User enters password....................................................passed
+And User clicks on future discounts checkbox................................passed
+Then User clicks on create account button...................................passed
+And Message displayed Signup Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/Signup Action" name="Successful Login with Valid Credentials" time="17.210741">
+<system-out><![CDATA[Given User clicks on Login Button...........................................passed
+When User enters login email address........................................passed
+And User enters login password..............................................passed
+And User Clicks on login button.............................................passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
